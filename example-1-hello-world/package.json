@@ -1,0 +1,45 @@
+{
+  "name": "example-1-hello-world",
+  "version": "1.0.0",
+  "description": "React Redux Workshop - Example 1 React hello world",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node tools/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaumesalatantinya/react-redux-workshop.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Jaume Sala Tantinya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jaumesalatantinya/react-redux-workshop/issues"
+  },
+  "homepage": "https://github.com/jaumesalatantinya/react-redux-workshop#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-plugin-react-display-name": "^2.0.0",
+    "babel-polyfill": "^6.13.0",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-react-hmre": "^1.1.1",
+    "babel-register": "^6.14.0",
+    "eventsource-polyfill": "^0.9.6",
+    "file-loader": "^0.9.0",
+    "open": "0.0.5",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.2",
+    "webpack-dev-middleware": "^1.7.0",
+    "webpack-hot-middleware": "^2.12.2"
+  }
+}
