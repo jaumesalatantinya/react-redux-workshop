@@ -1,14 +1,21 @@
-import React from 'react';
-import {Link} from 'react-router';
+import React, {PropTypes} from 'react';
+import Paper from 'material-ui/Paper';
+import RaisedButton from 'material-ui/RaisedButton';
 
-class ProductDetail extends React.Component {
-    render () {
-        return (
-            <div>
-                <h3>ProductDetail</h3>
-            </div>
-        );
-    }
-}
+const ProductDetail = ({title, author}) => {
+
+    return (
+        <Paper>
+            <h4>{title}</h4>
+            {author}
+            <h4><RaisedButton label="View Detail" primary={true} /></h4>
+        </Paper>
+    );
+};
+
+ProductDetail.propTypes = {
+    title: PropTypes.string.isRequired,
+    author: PropTypes.string.isRequired
+};
 
 export default ProductDetail;
