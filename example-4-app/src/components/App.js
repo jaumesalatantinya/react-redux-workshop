@@ -1,15 +1,19 @@
 import React, {PropTypes} from 'react';
-import Header from './header/Header';
-import Footer from './footer/Footer';
+import Header from './Header/Header';
+import Footer from './Footer/Footer';
+
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
 class App extends React.Component {
     render () {
         return (
-            <div>
-                <Header />
-                {this.props.children}
-                <Footer />
-            </div>
+            <MuiThemeProvider>
+                <div>
+                    <Header />
+                    {this.props.children}
+                    <Footer />
+                </div>
+            </MuiThemeProvider>
         );
     }
 }

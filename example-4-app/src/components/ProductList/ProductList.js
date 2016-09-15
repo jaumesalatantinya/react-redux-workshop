@@ -1,7 +1,6 @@
 import React from 'react';
-import {Link} from 'react-router';
 
-class ShowCase extends React.Component {
+class ProductList extends React.Component {
     render () {
         return (
             <div>
@@ -11,4 +10,4 @@ class ShowCase extends React.Component {
     }
 }
 
-export default ShowCase;
+export default ProductList;
