@@ -1,0 +1,13 @@
+/* Structural elements */
+body {
+    font-family: $mainFont;
+}
+
+/* Utilities */
+.u-floatLeft {
+    float: left;
+}
+
+.u-error {
+    color: $redError;
+}
